@@ -14,9 +14,8 @@ const Hero = () => {
         <video 
           className="w-full h-full object-cover opacity-60"
           autoPlay muted loop playsInline
-          poster="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=2642&auto=format&fit=crop"
         >
-            <source src="/1218(1).mp4" type="video/mp4" />
+            <source src="1218(1).mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>

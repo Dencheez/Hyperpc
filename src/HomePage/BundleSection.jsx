@@ -13,7 +13,7 @@ const BundleSection = () => (
       <div className="relative rounded-[3rem] overflow-hidden border border-zinc-800 isolate min-h-[600px] flex items-center">
         <div className="absolute inset-0 z-0">
           <video className="w-full h-full object-cover" autoPlay muted loop playsInline poster="/bundle-placeholder.jpg">
-            <source src="/1218.mp4" type="video/mp4" />
+            <source src="1218.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent"></div>
         </div>
